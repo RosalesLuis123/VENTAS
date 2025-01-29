@@ -27,18 +27,25 @@ Asegúrate de tener **Python 3.x** instalado en tu sistema. Si no tienes las bib
 
 ```bash
 pip install streamlit pandas matplotlib seaborn scikit-learn
-Ejecución
+```
+
+## **Ejecución**
+
 Clona o descarga este repositorio en tu máquina local.
 Asegúrate de tener el archivo CSV de ventas en el mismo directorio que el script.
 Para ejecutar el dashboard, abre una terminal y navega al directorio donde se encuentra el archivo de Python (por ejemplo, dashboard.py).
 Ejecuta el siguiente comando:
-bash
-Copiar
-Editar
+```
 streamlit run dashboard.py
+```
+o El siguiente:
+```
+C:\Users\USER\AppData\Roaming\Python\Python312\Scripts\streamlit run dashboard.py
+```
 Esto abrirá el dashboard en tu navegador.
 
-Funcionalidades
+## **Funcionalidades**
+
 1. Visualización de Ventas por Fecha
 El dashboard muestra las ventas a lo largo del tiempo, agrupadas por fecha. Este gráfico permite ver cómo han fluctuado las ventas y detectar patrones estacionales o tendencias en los datos.
 
