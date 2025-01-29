@@ -63,15 +63,16 @@ Los datos se agrupan por la columna Categoría.
 Se calcula la suma de las ventas tanto en cantidad (Cantidad) como en total de ventas (Total Venta).
 Los resultados se visualizan en un gráfico combinado con barras para la cantidad de ventas y una línea para el total de ventas.
 Estructura del Proyecto
-bash
-Copiar
-Editar
+```
 .
 ├── dashboard.py           # Código del Dashboard en Streamlit
 ├── ventas.csv             # Archivo CSV con los datos de ventas
 ├── README.md              # Este archivo
 └── requirements.txt       # Archivo con las dependencias del proyecto
-Archivo CSV - ventas.csv
+```
+
+## **Archivo CSV - ventas.csv**
+
 Este archivo contiene los datos de ventas que son utilizados por el dashboard. Debe tener las siguientes columnas:
 
 Fecha: Fecha de la venta.
@@ -81,18 +82,15 @@ Categoría: La categoría a la que pertenece el producto.
 Modelo de Predicción
 El modelo de predicción se entrena con los datos de ventas anteriores y utiliza regresión lineal para prever las ventas en el futuro. El modelo está basado en la columna Fecha y la etiqueta Cantidad.
 
-Posibles Mejoras
+## **Posibles Mejoras**
+
 Implementar predicciones usando otros algoritmos de Machine Learning más avanzados como Random Forest o XGBoost.
 Agregar más filtros interactivos para segmentar las ventas por otras características como producto o región.
 Añadir más métricas de desempeño del modelo, como el R^2.
 Contribuciones
 Si deseas contribuir a este proyecto, por favor, crea un fork del repositorio y abre un pull request con tus cambios.
 
-Licencia
+## **Licencia**
+
 Este proyecto está bajo la licencia MIT.
 
-csharp
-Copiar
-Editar
-
-Este es el README completo y detallado que puedes usar en tu repositorio de GitHub. Está estructur
