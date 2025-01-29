@@ -66,7 +66,7 @@ Cantidad: Número de unidades vendidas.
 Total Venta: Valor total de las ventas.
 Categoría: La categoría a la que pertenece el producto.
 Modelo de Predicción
-El modelo de predicción se entrena con los datos de ventas anteriores y utiliza regresión lineal para prever las ventas en el futuro. El modelo está basado en la columna Fecha y la etiqueta Cantidad.
+El modelo de predicción se entrena con los datos de ventas anteriores y utiliza regresión lineal para prever las ventas en el futuro.   El modelo está basado en la columna Fecha y la etiqueta Cantidad.
 
 Posibles Mejoras
 Implementar predicciones usando otros algoritmos de Machine Learning más avanzados como Random Forest o XGBoost.
