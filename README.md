@@ -26,3 +26,5 @@ Asegúrate de tener Python 3.x instalado en tu sistema. Si no tienes las bibliot
 
 ```bash
 pip install streamlit pandas matplotlib seaborn scikit-learn
+
+d
